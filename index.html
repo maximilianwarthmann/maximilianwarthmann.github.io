@@ -26,7 +26,9 @@
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="barscontainer">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
         </nav>
     </header>
 
@@ -76,7 +78,7 @@
             </div>
             <div class="team-member">
                 <div class="circle">
-                    <img src="images/MyselfWebsite.jpg" alt="Constantin Albrecht">
+                    <img src="images/TeamConstantinAlbrecht.jpg" alt="Constantin Albrecht">
                 </div>
                 <h3>Constantin Albrecht</h3>
                 <h4>President & Founder<br><br></h4>
@@ -126,19 +128,19 @@
 
         <div class="row">
             <div class="campus-col">
-                <img src="images/SnP.jpg">
+                <img src="images/PartnerLogos/SnPGlobal.jpg">
                 <div class="layer">
                     <h3>Partner1</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/ValueTrust.jpeg">
+                <img src="images/PartnerLogos/ValueTrust.jpg">
                 <div class="layer">
                     <h3>Partner2</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/ALPX.png">
+                <img src="images/PartnerLogos/ALPX.jpg">
                 <div class="layer">
                     <h3>Partner3</h3>
                 </div>
@@ -146,19 +148,19 @@
         </div>
         <div class="row">
             <div class="campus-col">
-                <img src="images/Bethmann.webp">
+                <img src="images/PartnerLogos/Bethmann.jpg">
                 <div class="layer">
                     <h3>Partner4</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/Donner-Reuschel.jpg">
+                <img src="images/PartnerLogos/DonnerReuschel.jpg">
                 <div class="layer">
                     <h3>Partner5</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/fininacialcom.webp">
+                <img src="images/PartnerLogos/financialcom.jpg">
                 <div class="layer">
                     <h3>Partner6</h3>
                 </div>
@@ -166,13 +168,19 @@
         </div>
         <div class="row">
             <div class="campus-col">
-                <img src="images/MunichStockexchangeLogo.png">
+                <img src="images/PartnerLogos/BoerseMunich.jpg">
                 <div class="layer">
                     <h3>Partner4</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/TiburonLogo.jpeg">
+                <img src="images/PartnerLogos/Tiburon.jpg">
+                <div class="layer">
+                    <h3>Partner5</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="">
                 <div class="layer">
                     <h3>Partner5</h3>
                 </div>
@@ -245,11 +253,36 @@
     <section class="footer">
         <h4>Munich FinanceCircle</h4>
         <p>An official club of the Technical University of Munich</p>
+        
         <div class="icons">
             <a href="https://www.linkedin.com/company/munichfinancecircle/"><i class="fa fa-envelope-o"></i></a>
             <a href="https://www.instagram.com/munichfinancecircle?igsh=Nm15amdwZnljcGRj"><i class="fa fa-instagram"></i></a>
             <a href="https://www.linkedin.com/company/munichfinancecircle/"><i class="fa fa-linkedin"></i></a>
         </div>
+        <h5>Imprint:</h5>
+        <div class="ImprintHolder">
+            <div class="Adresse">
+                <p2>
+                    Munich FinanceCircle <br>
+                    c/o Studentische Vertretung,<br>
+                    Arcisstrasse 21,<br>
+                    80333 Munich<br>
+                    —<br>
+                    <a href="Privacy Policy.pdf">Privacy Policy</a> 
+                </p2>
+            </div>
+            <div class="contacts">
+                <p2>Represented by:<br>
+            Constantin Albrecht, President & Founder<br>
+            —<br>
+            Responsible for Content:<br>
+            Advisory Board of Vice Presidents<br>
+            —<br>
+            Contact via e-mail: <a href = "mailto:info@munichfinancecircle.de">info@munichfinancecircle.de</a><br>
+                </p2>
+            </div>            
+        </div>
+        <p2>This Legal Notice complies with the German laws under § 5 DDG and § 55 RStV.</p2>
     </section>
 
 
@@ -259,10 +292,10 @@
 <script>
     var navLinks = document.getElementById("navLinks");
     function showMenu(){
-        navLinks.style.right = "-100px";
+        navLinks.style.right = "-60vw";
     }
     function hideMenu(){
-        navLinks.style.right = "-300px";
+        navLinks.style.right = "-100vw";
     }
 </script>
 <script>
