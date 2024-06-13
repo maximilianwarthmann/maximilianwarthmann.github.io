@@ -977,7 +977,7 @@ h3{
     .Test .row{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 43vh);
+        grid-template-rows: repeat(3, 48vh);
         /* Add some gap between the grid items */
         grid-gap: 10px;
         justify-content: center;
