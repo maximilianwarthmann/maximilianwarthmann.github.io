@@ -39,8 +39,35 @@
         </div>
         
     </section>
-
-    <!---ABOUT---->
+    <!--AbourVersion2-->
+    <section class="Test">
+        <h1>About</h1>
+        <div class="row">
+            <div class="about-col">
+                <div class="AboutIcon">
+                    <img src="images/BankIcon.png"> 
+                </div>
+                <h3>Corporate<br>Finance</h3>
+                <p2>We explore topics like Investment Banking, Asset Management, M&A, and more.</p2>
+            </div>
+            <div class="about-col">
+                <div class="AboutIcon">
+                    <img src="images/RocketIcon.png">
+                </div>
+                <h3>Entrepreneurial<br>Finance</h3>
+                <p2>We connect our members with industry experts and potential investors.</p2>
+            </div>
+            <div class="about-col">
+                <div class="AboutIcon">
+                    <img src="images/TechIcon.png">
+                </div>
+                <h3>Finance<br>Technologies</h3>
+                <p2>From Blockchain to Fintech innovations, we explore the latest technological advancements</p2>
+            </div>
+        </div>
+    </section>
+    </section>
+    <!---ABOUT
     <section class="about" id="about">
         <h1>About</h1>
         <div class="row">
@@ -63,8 +90,7 @@
             </div>
         </div>
     </section>
-    
-
+    ---->
     <section class="theteam" id="team">
         <h1>The Team</h1>
         <div class="row1">
@@ -292,7 +318,12 @@
 <script>
     var navLinks = document.getElementById("navLinks");
     function showMenu(){
-        navLinks.style.right = "-60vw";
+        if (window.innerWidth <= 700){
+        navLinks.style.right = "-15vw";
+        }
+        else if (window.innerWidth <= 1200){
+            navLinks.style.right = "-70vw"
+        }
     }
     function hideMenu(){
         navLinks.style.right = "-100vw";
