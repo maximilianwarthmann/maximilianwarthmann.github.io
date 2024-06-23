@@ -150,6 +150,9 @@ nav .fa{
     font-size: 56px;
     font-weight: 600;
 }
+.Test p{
+    padding-top: 20px;
+}
 .about-col{
     flex: 1;
     min-width: 250px; /* Ensure the columns don't get too narrow */
@@ -1035,7 +1038,7 @@ h3{
     .Test .row{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 44vh);
+        grid-template-rows: repeat(3, auto);
         /* Add some gap between the grid items */
         grid-gap: 10px;
         justify-content: center;
