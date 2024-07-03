@@ -433,7 +433,7 @@ h3{
 .applywin{
     width: 80%; 
     margin: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/Apply.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/ApplyHands.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -605,7 +605,7 @@ h3{
     text-align: left;
     width: 80%;
     margin: auto;
-    padding-top: 10%;
+    padding-top: 20px;
     font-size: 16px;
     font-weight: 600;
 }
@@ -630,7 +630,7 @@ h3{
     line-height: 20px;
 }
 
-@media  (min-width: 700px) and (  max-width: 1200px) {
+@media  (min-width: 820px) and (  max-width: 1200px) {
     .nav-links ul li {
         display: block;
     }
@@ -639,7 +639,7 @@ h3{
     }
     .nav-links{
         position: absolute;
-        background: #3069FF;/*#bfcae2;*/
+        background: #f8f8f8;/*#bfcae2;*/
         height: 110vh;
         width: 300px;
         top: 0;
@@ -649,6 +649,9 @@ h3{
         transition: 1s;
         align-items: right;
         align-content: right;
+        border-style: solid;
+        border-color: #3069FF;
+        border-width: 2px;
     }
     .nav-links .fa{
         display: block;
@@ -682,7 +685,7 @@ h3{
         content: '';
         width: 0%;
         height: 2px;
-        background: white;
+        background: #3069FF;
         display: block;
         margin: auto;
         transition: 0.5s;
@@ -695,7 +698,7 @@ h3{
     .Test .row{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 34vh);
+        grid-template-rows: repeat(3, auto);
         /* Add some gap between the grid items */
         grid-gap: 10px;
         justify-content: center;
@@ -726,7 +729,7 @@ h3{
     .about .row{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 27vh);
+        grid-template-rows: repeat(3, auto);
         /* Add some gap between the grid items */
         grid-gap: 10px;
         justify-content: center;
@@ -780,7 +783,7 @@ h3{
     .row1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 350px);
+        grid-template-rows: repeat(3, auto);
         /* Add some gap between the grid items */
         grid-gap: 30px;
         justify-content: center;
@@ -934,21 +937,24 @@ h3{
     }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 820px) {
 
     .nav-links ul li {
         display: block;
     }
     .nav-links{
         position: absolute;
-        background: #3069FF;/*#bfcae2;*/
+        background: #f8f8f8;/*#bfcae2;*/
         height: 120vh;
         width: 60%;
         top: 0;
-        right: -100%;
+        right: -100vw;
         text-align: left;
         z-index: 100;
         transition: right 1s ease;
+        border-color: #3069FF;
+        border-style: solid;
+        border-width: 2px;
     }
     nav .fa{
         display: block;
@@ -1068,7 +1074,7 @@ h3{
     .about .row{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 27vh);
+        grid-template-rows: repeat(3, auto);
         /* Add some gap between the grid items */
         grid-gap: 10px;
         justify-content: center;
@@ -1122,7 +1128,7 @@ h3{
     .row1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 350px);
+        grid-template-rows: repeat(3, auto);
         /* Add some gap between the grid items */
         grid-gap: 30px;
         justify-content: center;
@@ -1285,7 +1291,7 @@ h3{
     .applywin{
         width: 80%; 
         margin: auto;
-        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/Apply.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/ApplyHands.jpg);
         background-position: center;
         background-size: cover;
         text-align: center;
